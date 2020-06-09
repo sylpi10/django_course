@@ -1,0 +1,15 @@
+{% extends 'peoplebook/base.html' %}
+
+{% block title%} {{ block.super }}
+    Detail - {{ user.name}}
+{% endblock %}
+
+{% block content %}
+    <div class="userdetail">
+        <h1>Person Detail</h1>
+
+        <h2>Name : {{ user.name|title}}</h2>
+        <h3>Job : {{ user.job|title}}</h3>
+        <h4>Pic : {{ user.picture|title}}</h4>
+    </div>
+{% endblock %}
