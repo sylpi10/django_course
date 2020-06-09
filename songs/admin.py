@@ -3,7 +3,7 @@ from django.contrib import admin
 
 from songs.models import Album, Song
 
-admin.site.site_header = 'Amazing admin space'
+admin.site.site_header = 'My Admin Space'
 
 
 class AlbumAdmin(admin.ModelAdmin):
