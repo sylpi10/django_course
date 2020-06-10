@@ -27,6 +27,13 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# EMAIL_HOST = 'smtp.outlook.com'
+EMAIL_HOST = 'mail.atelierchenoa.fr'
+EMAIL_PORT = 587
+# EMAIL_PORT = 465
+EMAIL_HOST_USER = 'commande@atelierchenoa.fr'
+EMAIL_HOST_PASSWORD = 'soycdwywh.10'
+EMAIL_USE_TLS = True
 
 # Application definition
 
